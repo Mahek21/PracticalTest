@@ -12,7 +12,7 @@ public class TheMainOne {
 		transaction.populateList();
 		System.out.println("Enter account number : \t");
 		double accno = sc.nextDouble();
-		transaction.getAccount(accno);
+		transaction.setAccount(accno);
 		System.out.println("Enter 1. to Display Balance \n "
 				+ "Enter 2. to Withdraw \n " + "Enter 3. to Diposit \n : \t");
 		int choice = sc.nextInt();
